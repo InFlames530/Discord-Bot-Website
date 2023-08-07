@@ -6,24 +6,29 @@ export default function Commands() {
     "/help",
     "/invite",
     "/lyrics",
-    "/ping",
+    "/bot ping",
     "/stats",
-    "/setdj",
-    "/play",
-    "/serach",
-    "/stop",
-    "/skip",
-    "/back",
+    "/music play",
+    "/moderation",
+    "/search",
+    "/radio",
+    "/games",
+    "/automod",
     "/clear",
-    "/time",
-      "/queue",
-      "/pause",
-      "/resume",
-      "/volume",
-      "/nowplaying",
-      "/save",
-      "/loop",
-      "/filter"
+    "/levels",
+      "/music queue",
+      "/music pause",
+      "/music resume",
+      "/music volume",
+      "/music playing",
+      "/music bassboost",
+      "/music loop",
+      "/giveaway",
+      "/images",
+      "/casino",
+      "/tools",
+      "/thanks",
+      "/tickets"   
       ]
   return (
     <>
@@ -36,7 +41,7 @@ export default function Commands() {
          Bot Commands
         </p>
         <p className="text-white text-sm text-opacity-50 mb-5">
-        You can get information about the commands of the Astra Bot.
+        You can get information about the commands of the E.İ:S Bot.
         </p>
 
         <div>
@@ -64,13 +69,13 @@ export default function Commands() {
               <Menu.Items className="z-1 custom-scroll absolute left-0 w-full mt-2 origin-top-right bg-black overflow-auto max-h-60 border border-black border-opacity-20 bg-opacity-95 rounded-lg p-1">
                 <div className="px-1 py-1 w-full">
 
-            {commands.map(astra => (
+            {commands.map(E.İ:S => (
 
                 <Menu.Item>
                     <button className={`w-full rounded-lg p-2 cursor-pointer text-white flex items-center space-x-3 transition-all duration-200`}>
                     <>
                           <i className="fa-spin text-xl text-white text-opacity-20" />
-                         {astra}</>
+                         {E.İ:S}</>
                     </button>
                     </Menu.Item>
             ))}
@@ -83,23 +88,23 @@ export default function Commands() {
 
         <div className="animateHeader mt-10 flex flex-wrap items-center justify-center gap-x-4">
   
-  <Link href={"https://bit.ly/3PHDjyC"}>
+  <Link href={"https://bit.ly/3QuQQfQ"}>
   <a className={"flex items-center px-6 justify-center gap-x-2 shadow-lg shadow-amber-600/20 rounded-xl py-4 font-medium bg-gradient-to-bl from-amber-700 to-amber-500 hover:opacity-80 transition duration-200 text-white " }>
-Invite Astra</a>
+Invite E.İ:S</a>
   </Link>
 
   <div className="py-10"></div>
   
-  <Link href={"https://discord.gg/ZcDprCrFTn"}>
+  <Link href={"https://discord.gg/cPURNYgntH"}>
   <a className={" px-6 justify-center gap-x-2 shadow-lg shadow-amber-600/20 rounded-xl py-4 font-medium bg-gradient-to-bl from-amber-700 to-amber-500 hover:opacity-80 transition duration-200 text-white " }>
 Support Server</a>
   </Link>
 
   <div className="py-10"></div>
   
-  <Link href={"https://bit.ly/3LYzaDe"}>
+  <Link href={"https://top.gg/bot/1116738565968244837/vote"}>
   <a className={" px-6 justify-center gap-x-2 shadow-lg shadow-amber-600/20 rounded-xl py-4 font-medium bg-gradient-to-bl from-amber-700 to-amber-500 hover:opacity-80 transition duration-200 text-white " }>
-Vote Astra</a>
+Vote E.İ:S</a>
   </Link>
 </div>
 
