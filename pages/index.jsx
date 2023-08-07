@@ -13,11 +13,11 @@ export default function Index() {
           E.İ.S Bot
         </p>
         <p className="animateHeader text-white text-opacity-50 text-center mt-5">
-       How about moderating your own server with E.İ.S bot? Create your own free world and create your own playlist, experience this pleasure with the best sounds. 
+       How about managing your own server with the E.İ.S bot? Create your own free world and create your own playlist, enjoy it with the best sounds. You Can Also Do What You Want With More Than 400 Commands! 
 	  </p>
         <div className="animateHeader mt-10 flex flex-wrap items-center justify-center gap-x-4">
   
-            <Link href={"https://bit.ly/3DM0qDn"}>
+            <Link href={"https://bit.ly/3QuQQfQ"}>
               <a
                 className={
                   "flex items-center px-6 justify-center gap-x-2 shadow-lg shadow-amber-600/20 rounded-xl py-4 font-medium bg-gradient-to-bl from-amber-700 to-amber-500 hover:opacity-80 transition duration-200 text-white " 
@@ -27,7 +27,7 @@ export default function Index() {
               </a>
             </Link>
   <div className="py-10"></div>
-  <Link href={"https://bit.ly/3DM0qDn"}>
+  <Link href={"https://top.gg/servers/1116736582565773336"}>
   <a className={" px-6 justify-center gap-x-2 shadow-lg shadow-amber-600/20 rounded-xl py-4 font-medium bg-gradient-to-bl from-amber-700 to-amber-500 hover:opacity-80 transition duration-200 text-white " }>
 Vote E.İ.S</a>
   </Link>
